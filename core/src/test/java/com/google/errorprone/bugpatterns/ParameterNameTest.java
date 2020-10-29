@@ -495,7 +495,6 @@ public class ParameterNameTest {
         .doTest();
   }
 
-  @Ignore // TODO(b/67993065): remove @Ignore after the issue is fixed.
   @Test
   public void externalAnnotatedParameterPositive() {
     testHelper
